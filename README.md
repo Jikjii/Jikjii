@@ -1,8 +1,3 @@
-# Hi there, I'm Geraldo 👋
-
-
-
-<img align="right" src="https://visitor-badge.laobi.icu/badge?page_id=zumrudu-anka.zumrudu-anka">
 
 <h1 align="center">
   <a href="https://git.io/typing-svg">
@@ -12,10 +7,10 @@
 
 <h5 align="center">
   <code>
-    <a href="https://www.linkedin.com/in/osmandurdag/" title="LinkedIn Profile"><img width="22" src="images/linkedin.svg"> LinkedIn</a></code>
-  <code><a href="https://www.hackerrank.com/zumrudu_anka" title="HackerRank Profile"><img width="22" src="images/hackerrank.png"> HackerRank</a></code>
-  <code><a href="https://stackoverflow.com/users/12578260/osman-durdag" title="Stack Overflow Profile"><img width="22" src="images/stackoverflow.svg"> Stack Overflow</a></code>
-  <code><a href="https://www.instagram.com/osman__durdag/" title="Instagram Profile"><img width="22" src="images/instagram.svg"> Instagram</a></code>
+    <a href="https://www.linkedin.com/in/osmandurdag/" title="LinkedIn Profile"><img width="22" src="https://raw.githubusercontent.com/zumrudu-anka/zumrudu-anka/de6fc260d1b508b886eb59b723ae9970d45a5f11/images/linkedin.svg"> LinkedIn</a></code>
+  <code><a href="https://www.hackerrank.com/zumrudu_anka" title="Gmail"><img width="22" src="https://cdn-icons.flaticon.com/png/512/2504/premium/2504727.png?token=exp=1653524371~hmac=c9495645791f605e01d51392e04293fd"> Gmail</a></code>
+<!--   <code><a href="https://stackoverflow.com/users/12578260/osman-durdag" title="Stack Overflow Profile"><img width="22" src="https://raw.githubusercontent.com/zumrudu-anka/zumrudu-anka/de6fc260d1b508b886eb59b723ae9970d45a5f11/images/stackoverflow.svg"> Stack Overflow</a></code> -->
+  <code><a href="https://twitter.com/jikjiii" title="Twitter Profile"><img width="22" src="https://cdn-icons.flaticon.com/png/512/3256/premium/3256013.png?token=exp=1653523886~hmac=709b4771c3fcd0c68861e2256f1d54ea"> Twitter</a></code>
 </h5>
 <br>
 <p align="center">
@@ -24,7 +19,7 @@
   <br>
   🔬 I'm currently studying for a bachelor's degree in Manhattan College's Physics Department
   <br>
-  💻 I love writing code and learn anythings about it
+  💻 I love writing coding and creating applications in React and Python !
   <br>
   📚 I’m currently interested in learning how to build Sim2Real Simulations and Machine Learning Applications
   <br>
@@ -33,7 +28,7 @@
   📫 How to reach me: <a href="mailto: ggrelldev@gmail.com">ggrelldev@gmail.com</a>
 </p>
 
-<hr>
+<!-- <hr>
 <h2 align="center">🔥 Languages & Frameworks & Tools & Abilities 🔥</h2>
 <br>
 <p align="center">
@@ -67,7 +62,7 @@
   <code><img title="PHP" height="25" src="images/php.svg"></code>
   <code><img title="Flask" height="25" src="images/flask.png"></code>
 </p>
-<hr>
+<hr> -->
 
 <h2 align="center">⚡ Stats ⚡</h2>
 <br>
@@ -81,7 +76,7 @@
     </a>
   </div>
   <br><br><br><br><br><br><br><br><br>
-  <div align=center>
+<!--   <div align=center>
     <a href="https://github.com/jikjii/github-readme-stats">
       <img width=325 align="center" src="https://github-readme-stats.vercel.app/api/top-langs/?username=jikjii&hide=c%23,powershell,Mathematica,Ruby,Objective-C,Objective-C%2b%2b,Cuda&title_color=61dafb&text_color=ffffff&icon_color=61dafb&bg_color=20232a&langs_count=8&layout=compact&border_color=61dafb&hide_border=true" />
     </a>
@@ -90,7 +85,7 @@
   <img src="https://activity-graph.herokuapp.com/graph?username=jikjii&theme=react-dark&bg_color=20232a&hide_border=true" width="100%"/>
 </p>
 
-<hr>
+<hr> -->
 
 <!-- <h2 align="center">👨‍💻 Repositories 👨‍💻</h2>
 <br>
