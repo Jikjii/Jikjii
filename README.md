@@ -14,7 +14,7 @@
 </h5>
 <br>
 <p align="center">
-  Hi, I'm Geraldo Grell, Software Engineer & Software Developer from New York City
+  Hi, I'm Geraldo Grell, Software Engineer from New York City
   <br>
 <!--   <br>
   🔬 I'm currently studying for a bachelor's degree in Manhattan College's Physics Department
