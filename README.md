@@ -14,12 +14,12 @@
 </h5>
 <br>
 <p align="center">
-  Hi, I'm Geraldo Grell, Software Engineer from New York City
+  Hi, I'm Geraldo Grell, A Software Engineer from New York City
   <br>
 <!--   <br>
   🔬 I'm currently studying for a bachelor's degree in Manhattan College's Physics Department
   <br> -->
-  💻 I love writing coding and creating applications in React and Python !
+  💻 I love writing coding and creating fullstack applications with Javascript and Python !
   <br>
   📚 I’m currently interested in learning how to build Sim2Real Simulations and Machine Learning Applications
   <br>
