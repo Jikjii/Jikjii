@@ -10,7 +10,7 @@
     <a href="https://www.linkedin.com/in/geraldo-grell/" title="LinkedIn Profile"><img width="22" src="https://raw.githubusercontent.com/zumrudu-anka/zumrudu-anka/de6fc260d1b508b886eb59b723ae9970d45a5f11/images/linkedin.svg"> LinkedIn</a></code>
 <!--   <code><a href="ggrelldev@gmail.com" title="Gmail"><img width="22" src="https://cdn-icons.flaticon.com/png/512/2504/premium/2504727.png?token=exp=1653524371~hmac=c9495645791f605e01d51392e04293fd"> Gmail</a></code> -->
 <!--   <code><a href="https://stackoverflow.com/users/12578260/osman-durdag" title="Stack Overflow Profile"><img width="22" src="https://raw.githubusercontent.com/zumrudu-anka/zumrudu-anka/de6fc260d1b508b886eb59b723ae9970d45a5f11/images/stackoverflow.svg"> Stack Overflow</a></code> -->
-  <code><a href="https://twitter.com/jikjiii" title="Twitter Profile"><img width="22" src="https://cdn-icons.flaticon.com/png/512/3256/premium/3256013.png?token=exp=1653523886~hmac=709b4771c3fcd0c68861e2256f1d54ea"> Twitter</a></code>
+<!--   <code><a href="https://twitter.com/jikjiii" title="Twitter Profile"><img width="22" src="https://cdn-icons.flaticon.com/png/512/3256/premium/3256013.png?token=exp=1653523886~hmac=709b4771c3fcd0c68861e2256f1d54ea"> Twitter</a></code> -->
 </h5>
 <br>
 <p align="center">
