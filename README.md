@@ -19,11 +19,11 @@
 <!--   <br>
   🔬 I'm currently studying for a bachelor's degree in Manhattan College's Physics Department
   <br> -->
-  💻 I love writing coding and creating fullstack applications with Javascript and Python !
+  💻 I love creating fullstack applications with Typescript and Go !
   <br>
   📚 I’m currently interested in learning how to build Sim2Real Simulations and Machine Learning Applications
   <br>
-  💬 Ask me anything about from <a href="https://github.com/jikjii/jikjii/issues" title="Issues">Here</a>
+  💬 Ask me anything you'd like <a href="https://github.com/jikjii/jikjii/issues" title="Issues">Here</a>
   <br>
   📫 How to reach me: <a href="mailto: ggrelldev@gmail.com">ggrelldev@gmail.com</a>
 </p>
