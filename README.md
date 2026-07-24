@@ -25,7 +25,7 @@
   <br>
   💬 Ask me anything you'd like <a href="https://github.com/jikjii/jikjii/issues" title="Issues">Here</a>
   <br>
-  📫 How to reach me: <a href="mailto: ggrelldev@gmail.com">ggrelldev@gmail.com</a>
+  📫 How to reach me: <a href="mailto: ggrell1@wgu.com">ggrell1@wgu.com</a>
 </p>
 
 <!-- <hr>
