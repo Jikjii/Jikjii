@@ -1,0 +1,7 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="120" height="40" viewBox="0 0 120 40" role="img" aria-label="LinkedIn">
+<title>LinkedIn</title>
+<defs><path id="d39" d="M108 0V-698H220V-94H538V0Z"/><path id="d36" d="M80 0V-85H244V-613H80V-698H520V-613H356V-85H520V0Z"/><path id="d41" d="M179 -537H170V0H72V-698H216L421 -161H430V-698H528V0H384Z"/><path id="d38" d="M274 -321 190 -216V0H78V-698H190V-364H195L280 -480L451 -698H580L350 -404L589 0H461Z"/><path id="d32" d="M86 0V-698H523V-604H198V-401H511V-307H198V-94H523V0Z"/><path id="d31" d="M82 -698H290Q424 -698 488.5 -609Q553 -520 553 -349Q553 -178 488.5 -89Q424 0 290 0H82ZM283 -92Q360 -92 397.5 -143.5Q435 -195 435 -291V-407Q435 -503 397.5 -554.5Q360 -606 283 -606H193V-92Z"/></defs>
+<rect x="0.5" y="0.5" width="119" height="39" rx="7" fill="#fffaf4" stroke="#ecdbc6" stroke-width="1"/>
+<g transform="translate(18 24.3) scale(0.012)" fill="#9a4600"><use href="#d39" x="0"/><use href="#d36" x="700"/><use href="#d41" x="1400"/><use href="#d38" x="2100"/><use href="#d32" x="2800"/><use href="#d31" x="3500"/><use href="#d36" x="4200"/><use href="#d41" x="4900"/></g>
+<path d="M94 24.3L101.5 16.8M96.4 16.8H101.5V19.2" fill="none" stroke="#9a4600" stroke-width="1.4" stroke-linecap="square"/>
+</svg>

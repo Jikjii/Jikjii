@@ -1,0 +1,7 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="120" height="40" viewBox="0 0 120 40" role="img" aria-label="Email me">
+<title>Email me</title>
+<defs><path id="d32" d="M86 0V-698H523V-604H198V-401H511V-307H198V-94H523V0Z"/><path id="d40" d="M445 -334 448 -544H440L300 -185L160 -544H152L155 -334V0H56V-698H193L300 -421H307L415 -698H544V0H445Z"/><path id="d28" d="M462 0 409 -186H187L134 0H20L224 -698H377L581 0ZM302 -585H294L208 -279H388Z"/><path id="d36" d="M80 0V-85H244V-613H80V-698H520V-613H356V-85H520V0Z"/><path id="d39" d="M108 0V-698H220V-94H538V0Z"/></defs>
+<rect x="0.5" y="0.5" width="119" height="39" rx="7" fill="#ff9f1c"/>
+<g transform="translate(18 24.3) scale(0.012)" fill="#140c08"><use href="#d32" x="0"/><use href="#d40" x="700"/><use href="#d28" x="1400"/><use href="#d36" x="2100"/><use href="#d39" x="2800"/><use href="#d40" x="4200"/><use href="#d32" x="4900"/></g>
+<path d="M94 24.3L101.5 16.8M96.4 16.8H101.5V19.2" fill="none" stroke="#140c08" stroke-width="1.4" stroke-linecap="square"/>
+</svg>

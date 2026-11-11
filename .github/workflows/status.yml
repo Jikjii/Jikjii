@@ -1,0 +1,64 @@
+# Sweeps every service in profile.toml, appends the results to log/sweeps.jsonl,
+# and redraws the profile from that log. Commits only when something changed.
+#
+# Optional: a fine-grained token with read access to private repos, saved as the
+# STATUS_TOKEN secret, lets private repos report their Actions runs (they still
+# render without a link, since visitors could not open them).
+name: status
+
+on:
+  schedule:
+    - cron: "17 */6 * * *"   # 00:17, 06:17, 12:17, 18:17 UTC; keep in step with sweep_hours
+  push:
+    branches: [main]
+    paths:
+      - profile.toml
+      - log/shipped.jsonl
+      - tools/**
+      - fonts/**
+      - .github/workflows/status.yml
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+concurrency:
+  group: status
+  cancel-in-progress: false
+
+jobs:
+  sweep:
+    runs-on: ubuntu-latest
+    timeout-minutes: 10
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+          cache: pip
+          cache-dependency-path: tools/requirements.txt
+
+      - name: Install renderer dependencies
+        run: pip install -r tools/requirements.txt
+
+      - name: Sweep services
+        env:
+          GITHUB_TOKEN: ${{ secrets.STATUS_TOKEN || github.token }}
+        run: python tools/sweep.py
+
+      - name: Redraw the profile
+        run: python tools/render.py
+
+      - name: Commit if anything changed
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add log assets README.md
+          if git diff --cached --quiet; then
+            echo "Nothing changed."
+            exit 0
+          fi
+          git commit -m "sweep $(date -u +%Y-%m-%dT%H:%MZ)"
+          git pull --rebase origin main
+          git push

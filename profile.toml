@@ -1,0 +1,121 @@
+# profile.toml - the only file to edit by hand (plus log/shipped.jsonl).
+#
+# tools/sweep.py reads the [[service]] blocks, checks each one, and appends what
+# it saw to log/sweeps.jsonl. tools/render.py turns this file and both logs into
+# the SVGs in assets/ and the marked blocks of README.md.
+# .github/workflows/status.yml runs both every six hours and on every push here.
+
+[site]
+repo = "Jikjii/Jikjii"        # where this README lives; image URLs point here
+branch = "main"
+sweep_hours = 6               # must match the cron in status.yml
+window = 28                   # tiles per row: 28 six-hour sweeps = 7 days
+
+[person]
+name = "Geraldo Grell"
+eyebrow = "Software engineer · backend & infrastructure"
+lede = [
+  "I build ingestion pipelines and the infrastructure",
+  "underneath them. Scheduled jobs, append-only",
+  "stores, and the Kubernetes they run on.",
+]
+location = "New York, NY · open to relocation"
+status = "Open to roles · backend · platform · data infra"
+portfolio = "https://jikjii.github.io/geraldo/"
+
+# The buttons under the header, in order. One may be primary (filled).
+[[link]]
+id = "email"
+label = "Email me"
+url = "mailto:swegeraldogrell@gmail.com"
+primary = true
+
+[[link]]
+id = "linkedin"
+label = "LinkedIn"
+url = "https://www.linkedin.com/in/geraldo-grell/"
+
+[[link]]
+id = "resume"
+label = "Resume"
+url = "https://jikjii.github.io/geraldo/assets/Geraldo_Grell_Resume.pdf"
+
+[[link]]
+id = "portfolio"
+label = "Portfolio"
+url = "https://jikjii.github.io/geraldo/"
+
+# One row per service on the control plane, in this order.
+#   summary  at most two lines on the card; render.py warns if it gets cut
+#   tags     the quiet mono line under the summary
+#   link     where the row goes when clicked (default: the repo, if public)
+#   probe    an https URL fetched every sweep; 2xx/3xx = up
+#   repo     owner/name; its latest finished Actions run counts as a check.
+#            A repo that 404s (private or not created yet) shows PRIVATE REPO,
+#            and lights up on its own once it is public.
+#   workflow optional: only watch this workflow file, e.g. "ingest.yml"
+#   palette  tile colours, from the site's light wall: signal, margin, dusk, rose
+
+[[service]]
+id = "marginlab"
+summary = "Daily SWE-Bench Pro evals of Claude Code and Codex for 169K+ users; significant regressions get flagged."
+tags = ["owner & operator", "scheduled eval jobs", "firebase"]
+link = "https://marginlab.ai"
+probe = "https://marginlab.ai"
+palette = "margin"
+
+[[service]]
+id = "crewroom"
+summary = "Crew-planning app for cosplay creators, in beta on web and iPhone. Node.js API, moderated uploads, backups."
+tags = ["typescript", "expo", "node", "sqlite", "docker", "render"]
+repo = "Jikjii/crewroom"
+probe = "https://joincrewroom.com/api/health"
+palette = "dusk"
+
+[[service]]
+id = "edgar-instrument"
+summary = "Ingests SEC EDGAR filings on a schedule; Brier-scores an investment-thesis ledger against realized outcomes."
+tags = ["python", "postgres", "actions"]
+repo = "Jikjii/edgar-instrument"
+palette = "signal"
+
+[[service]]
+id = "open-docket"
+summary = "Pulls federal court filings from the CourtListener API into an append-only JSONL store."
+tags = ["python", "courtlistener", "actions"]
+repo = "Jikjii/open-docket"
+palette = "signal"
+
+[[service]]
+id = "uma"
+summary = "Music discovery over pgvector embeddings, driven by pairwise choices written to an append-only table."
+tags = ["typescript", "postgres", "pgvector"]
+repo = "Jikjii/uma"
+palette = "signal"
+
+[[service]]
+id = "hire-signal"
+summary = "Application pipeline and triage board tracking 450 companies: status, dedup, next action."
+tags = ["typescript", "node", "postgres"]
+repo = "Jikjii/hire-signal"
+palette = "signal"
+
+# The stack card. Order here = order on the card.
+[stack_note]
+text = "Listed only where I would survive a 45-minute interview. Things I have touched but would not claim are not here."
+
+[[stack]]
+label = "Languages"
+items = ["TypeScript", "Python", "SQL", "Bash"]
+
+[[stack]]
+label = "Infrastructure"
+items = ["AWS EKS", "Kubernetes", "Helm", "Terraform", "ArgoCD", "Docker", "GitHub Actions", "Linux"]
+
+[[stack]]
+label = "Data"
+items = ["PostgreSQL", "pgvector"]
+
+[[stack]]
+label = "Web"
+items = ["Node.js", "Express", "React / Next.js"]
