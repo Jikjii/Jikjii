@@ -1,0 +1,9 @@
+{"date": null, "service": "uma", "text": "evaluation harness: taste prediction at 66–80%", "todo": "add the date, n and the baseline"}
+{"date": null, "service": "hire-signal", "text": "triage board shipped; 450 companies under tracking", "todo": "add the date"}
+{"date": null, "service": "open-docket", "text": "CourtListener ingestion running on an Actions schedule", "todo": "add the date"}
+{"date": null, "service": "edgar-instrument", "text": "Brier-scored thesis ledger wired to realized outcomes", "todo": "add the date"}
+{"date": "2026-09-18", "service": "crewroom", "text": "live on Render: one Docker service, 10 GB persistent disk, health-checked"}
+{"date": "2026-09-18", "service": "crewroom", "text": "private iPhone beta on TestFlight"}
+{"date": "2026-09-22", "service": "crewroom", "text": "beta waitlist at /beta: double opt-in, rate-limited mail, records that expire"}
+{"date": "2026-09-22", "service": "crewroom", "text": "hybrid moderation live: clean posts auto-publish, flagged ones wait for a human"}
+{"date": "2026-09-23", "service": "crewroom", "text": "production backup restored into an isolated copy and verified, database and media"}
