@@ -136,3 +136,9 @@
 {"t": "2026-11-21T19:17:58Z", "id": "open-docket", "state": "private", "http": null, "ci": null, "repo": "missing"}
 {"t": "2026-11-21T19:17:58Z", "id": "uma", "state": "private", "http": null, "ci": null, "repo": "missing"}
 {"t": "2026-11-21T19:17:58Z", "id": "hire-signal", "state": "private", "http": null, "ci": null, "repo": "missing"}
+{"t": "2026-11-22T06:51:31Z", "id": "marginlab", "state": "up", "http": {"ok": true, "code": 200, "ms": 60}, "ci": null, "repo": null}
+{"t": "2026-11-22T06:51:31Z", "id": "crewroom", "state": "up", "http": {"ok": true, "code": 200, "ms": 375}, "ci": null, "repo": "public", "pushed": "2026-09-23T23:18:12Z"}
+{"t": "2026-11-22T06:51:31Z", "id": "edgar-instrument", "state": "private", "http": null, "ci": null, "repo": "missing"}
+{"t": "2026-11-22T06:51:31Z", "id": "open-docket", "state": "private", "http": null, "ci": null, "repo": "missing"}
+{"t": "2026-11-22T06:51:31Z", "id": "uma", "state": "private", "http": null, "ci": null, "repo": "missing"}
+{"t": "2026-11-22T06:51:31Z", "id": "hire-signal", "state": "private", "http": null, "ci": null, "repo": "missing"}
